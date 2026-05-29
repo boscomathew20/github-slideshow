@@ -10,6 +10,17 @@
 <!-- Theme used for syntax highlighting of code -->
 <link rel="stylesheet" href="{{site.baseurl}}/node_modules/reveal.js/lib/css/monokai.css">
 
+<style>
+  /* Eliminate 300ms tap delay and improve touch responsiveness on mobile */
+  html, body, .reveal, .reveal .slides, .reveal .slides section {
+    touch-action: manipulation;
+  }
+  /* Promote slide container to its own compositor layer for smoother transitions */
+  .reveal .slides {
+    will-change: transform;
+  }
+</style>
+
 <!-- Printing and PDF exports -->
 <script>
 	var link = document.createElement( 'link' );
