@@ -75,7 +75,7 @@ reveal:
   ## Enable slide navigation via mouse wheel
   #mouseWheel: false
   ## Hides the address bar on mobile devices
-  #hideAddressBar: true
+  hideAddressBar: true
   ## Opens links in an iframe preview overlay
   #previewLinks: false
   ## Transition style (default/cube/page/concave/zoom/linear/fade/none)
@@ -83,9 +83,9 @@ reveal:
   ## Transition speed (default/fast/slow)
   #transitionSpeed: default
   ## Transition style for full page slide backgrounds (default/none/slide/concave/convex/zoom)
-  backgroundTransition: slide
+  backgroundTransition: none
   ## Number of slides away from the current that are visible
-  #viewDistance: 3
+  viewDistance: 2
   ## Parallax background image (e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'")
   #parallaxBackgroundImage: ''
   ## Parallax background size (CSS syntax, e.g. "2100px 900px")
